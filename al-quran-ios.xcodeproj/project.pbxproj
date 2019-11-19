@@ -8,12 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		847AC316238428290006CB26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC315238428290006CB26 /* AppDelegate.swift */; };
-		847AC318238428290006CB26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC317238428290006CB26 /* ViewController.swift */; };
-		847AC31B238428290006CB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AC319238428290006CB26 /* Main.storyboard */; };
 		847AC31D2384282A0006CB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847AC31C2384282A0006CB26 /* Assets.xcassets */; };
-		847AC3202384282A0006CB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847AC31E2384282A0006CB26 /* LaunchScreen.storyboard */; };
 		847AC32B2384282B0006CB26 /* al_quran_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC32A2384282B0006CB26 /* al_quran_iosTests.swift */; };
 		847AC3362384282B0006CB26 /* al_quran_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AC3352384282B0006CB26 /* al_quran_iosUITests.swift */; };
+		84F84CCC2384311B00A41511 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F84CCB2384311B00A41511 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +34,7 @@
 /* Begin PBXFileReference section */
 		847AC312238428290006CB26 /* al-quran-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "al-quran-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC315238428290006CB26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		847AC317238428290006CB26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		847AC31A238428290006CB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847AC31C2384282A0006CB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		847AC31F2384282A0006CB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847AC3212384282A0006CB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847AC3262384282B0006CB26 /* al-quran-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "al-quran-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC32A2384282B0006CB26 /* al_quran_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = al_quran_iosTests.swift; sourceTree = "<group>"; };
@@ -47,6 +42,7 @@
 		847AC3312384282B0006CB26 /* al-quran-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "al-quran-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		847AC3352384282B0006CB26 /* al_quran_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = al_quran_iosUITests.swift; sourceTree = "<group>"; };
 		847AC3372384282B0006CB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F84CCB2384311B00A41511 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				847AC315238428290006CB26 /* AppDelegate.swift */,
-				847AC317238428290006CB26 /* ViewController.swift */,
-				847AC319238428290006CB26 /* Main.storyboard */,
+				84F84CCB2384311B00A41511 /* ViewController.swift */,
 				847AC31C2384282A0006CB26 /* Assets.xcassets */,
-				847AC31E2384282A0006CB26 /* LaunchScreen.storyboard */,
 				847AC3212384282A0006CB26 /* Info.plist */,
 			);
 			path = "al-quran-ios";
@@ -229,9 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847AC3202384282A0006CB26 /* LaunchScreen.storyboard in Resources */,
 				847AC31D2384282A0006CB26 /* Assets.xcassets in Resources */,
-				847AC31B238428290006CB26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847AC318238428290006CB26 /* ViewController.swift in Sources */,
+				84F84CCC2384311B00A41511 /* ViewController.swift in Sources */,
 				847AC316238428290006CB26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,25 +283,6 @@
 			targetProxy = 847AC3322384282B0006CB26 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		847AC319238428290006CB26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847AC31A238428290006CB26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		847AC31E2384282A0006CB26 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				847AC31F2384282A0006CB26 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		847AC3382384282B0006CB26 /* Debug */ = {
